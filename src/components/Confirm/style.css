@@ -1,0 +1,26 @@
+.modalDelete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  background: rgba(0, 0, 0, .7);
+
+}
+
+
+.modalDelete > div {
+  color: #666;
+  background: #FFF !important;
+  padding: 1em 2em 2em 2em;
+  text-align: center;
+  border-radius: 5px;
+}
+.modalDelete > div > p {
+  padding: 2em 0;
+  font-size: 1.2em;
+}
